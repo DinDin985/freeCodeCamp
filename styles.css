@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rowdies:wght@300&display=swap');
+
+.wrapper{
+    width: 100%;
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: black;
+}
+
+#header-align{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Shia1{
+    height: 30vmin;
+}
+
+#Shia2{
+    height: 30vmin;
+}
+
+#header{
+    font-size: 40px;
+    background-color: black;
+    margin: 0px;
+}
+
+#header h1{
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+#header p{
+    color: white;
+    text-align: center;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+    height: 100vmin;
+}
+
+#img-align{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 3.5vmin;
+}
+
+#fig-align{
+    border: 1px solid white;
+    height: 10%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5vmin;
+    margin-bottom: 3.5vmin;
+    background-color: black;
+}
+
+#fig-align figcaption{
+    font-size: 25px;
+}
+
+#image{
+    width: 50%;
+    height: 90%;
+}
+
+#background, #phase, #timeline, #conclusion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#background h2, #phase h2, #timeline h2, #conclusion h2{
+    font-family: "Playfair Display";
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#background p, #phase p, #timeline li, #conclusion p{
+    width: 75%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#timeline ul li::before {
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+#timeline ul{
+    width: 120%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date{
+    width: auto;
+    flex-wrap: nowrap;
+    margin-right: 10px;
+}
+
+#timeline li{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.event{
+    
+}
+
+#background p, #phase p, #timeline p, #conclusion p{
+    font-size: 18px;
+}
+
+#conclusion p{
+    text-align: center;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10vmin;
+}
+
+.separator{
+    height: 5px;
+    border-radius: 100%;
+    margin: 5vmin 20vmin 5vmin 20vmin;
+    background-color: white;
+}
+
+p, h2, li, figcaption{
+    color: white;
+}
